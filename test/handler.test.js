@@ -339,7 +339,7 @@ test('Ensure quotesRandom returns 200 with random quote', async () => {
 
 test('Ensure quoteId returns 200 with correct quote', async () => {
   let response = await handler.quotesId({
-    pathParameters: { id: 'ee075861-1551-51bc-97c6-68b4fc7712f9' }
+    pathParameters: { id: '76d76d62-1b28-5fbe-baf8-85ac5dde8ee9' }
   });
   expect(response['statusCode']).toBe(200);
 
@@ -350,7 +350,7 @@ test('Ensure quoteId returns 200 with correct quote', async () => {
   expect(body['action']).toBe('Ready');
   expect(body['isHero']).toBe(false);
   expect(body['isMelee']).toBe(true);
-  expect(body['id']).toBe('ee075861-1551-51bc-97c6-68b4fc7712f9');
+  expect(body['id']).toBe('76d76d62-1b28-5fbe-baf8-85ac5dde8ee9');
 });
 
 test('Ensure quoteId returns 400 with message', async () => {
