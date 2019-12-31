@@ -22,7 +22,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@blizzard-quotes/warcraft-3-quotes": "^1.0.0",
+    "@blizzard-quotes/warcraft-3-quotes": "^1.1.1",
     "validator": "^10.11.0"
   },
   "devDependencies": {
