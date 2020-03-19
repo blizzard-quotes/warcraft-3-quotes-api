@@ -1,6 +1,6 @@
 {
   "name": "warcraft-3-quotes-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple API for retrieving Warcraft III quotes",
   "keywords": [
     "warcraft 3",
@@ -22,7 +22,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@blizzard-quotes/warcraft-3-quotes": "^1.1.1",
+    "@blizzard-quotes/warcraft-3-quotes": "^1.1.2",
     "validator": "^12.2.0"
   },
   "devDependencies": {
